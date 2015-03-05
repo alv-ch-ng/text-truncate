@@ -1,0 +1,10 @@
+.idea
+*.iml
+
+lib
+node_modules
+build
+
+private
+src/example/fonts/frutiger
+src/example/fonts/adminchsymbols
