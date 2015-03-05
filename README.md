@@ -1,4 +1,4 @@
-alv-ch-ng.text-truncate [![Build Status](https://travis-ci.org/alv-ch-ng/textTruncate.svg?branch=master)](https://travis-ci.org/alv-ch-ng/textTruncate) [![Coverage Status](https://coveralls.io/repos/alv-ch-ng/textTruncate/badge.svg)](https://coveralls.io/r/alv-ch-ng/textTruncate) [![Code Climate](https://codeclimate.com/github/alv-ch-ng/textTruncate/badges/gpa.svg)](https://codeclimate.com/github/alv-ch-ng/textTruncate)
+alv-ch-ng.text-truncate [![Build Status](https://travis-ci.org/alv-ch-ng/text-truncate.svg?branch=master)](https://travis-ci.org/alv-ch-ng/text-truncate) [![Coverage Status](https://coveralls.io/repos/alv-ch-ng/text-truncate/badge.svg)](https://coveralls.io/r/alv-ch-ng/text-truncate) [![Code Climate](https://codeclimate.com/github/alv-ch-ng/text-truncate/badges/gpa.svg)](https://codeclimate.com/github/alv-ch-ng/text-truncate)
 =============
 
 This is a simple, but fully functional, directive for truncating text in [angularjs](https://angularjs.org/) apps. This directive not only truncates your text, but also permits toggling the hidden part of the truncated text.
