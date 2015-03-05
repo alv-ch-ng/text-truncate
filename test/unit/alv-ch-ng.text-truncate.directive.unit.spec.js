@@ -1,6 +1,6 @@
 ;(function () {
     describe('text-truncate directive', function () {
-        var controller, elem, scope;
+        var elem, scope;
 
         beforeEach(module('alv-ch-ng.text-truncate', 'pascalprecht.translate', function ($translateProvider) {
             $translateProvider.translations('en', {
