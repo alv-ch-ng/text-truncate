@@ -1,6 +1,6 @@
 ;(function () {
     describe('text-truncate directive', function () {
-        var elem, scope;
+        var controller, elem, scope;
 
         beforeEach(module('alv-ch-ng.text-truncate', 'pascalprecht.translate', function ($translateProvider) {
             $translateProvider.translations('en', {
@@ -8,8 +8,8 @@
                 "common_text_truncate_less":"Less"
             })
             .translations('de', {
-                    "common_text_truncate_more":"mehr",
-                    "common_text_truncate_less":"weniger"
+                "common_text_truncate_more":"mehr",
+                "common_text_truncate_less":"weniger"
             });
             $translateProvider.preferredLanguage('en');
         }));
@@ -37,7 +37,6 @@
                     expect(elem.find('span')).toContainText('mehr');
                     expect(elem.find('span')).toContainText('weniger');
 
-                    //controller.toggleShow();
                 });
             }
         );
