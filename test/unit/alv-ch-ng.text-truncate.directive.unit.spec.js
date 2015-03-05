@@ -2,7 +2,7 @@
     describe('text-truncate directive', function () {
         var elem, scope;
 
-        beforeEach(module('alv-ch-ng.text-truncate', 'alv-ch-ng.core', 'pascalprecht.translate', function ($translateProvider) {
+        beforeEach(module('alv-ch-ng.text-truncate', 'pascalprecht.translate', function ($translateProvider) {
             $translateProvider.translations('en', {
                 "common_text_truncate_more":"More",
                 "common_text_truncate_less":"Less"

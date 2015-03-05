@@ -12,7 +12,6 @@
     'ngResource',
     'ngAria',
     'pascalprecht.translate',
-    'alv-ch-ng.core',
     'alv-ch-ng.text-truncate'
   ];
 

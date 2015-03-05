@@ -1,4 +1,4 @@
-/* alv-ch-ng.textTruncate - 0.2.0 - 2015-03-05 - Copyright (c) 2015 Informatik der Arbeitslosenversicherung; */
+/* alv-ch-ng.text-truncate - 0.2.0 - 2015-03-05 - Copyright (c) 2015 Informatik der Arbeitslosenversicherung; */
 ;(function () {
     'use strict';
 

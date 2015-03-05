@@ -1,5 +1,5 @@
 {
-  "name": "alv-ch-ng.textTruncate",
+  "name": "alv-ch-ng.text-truncate",
   "version": "0.2.0",
   "ignore": [
     ".idea",
@@ -25,7 +25,6 @@
     "ng-lodash":"latest"
   },
   "devDependencies": {
-    "alv-ch-ng.core": "latest",
     "alv-ch-ng.style": "latest",
     "angular": "latest",
     "angular-resource": "latest",

@@ -1,7 +1,7 @@
 ;(function () {
     'use strict';
 
-    var module = angular.module('alv-ch-ng.text-truncate', ['alv-ch-ng.core']);
+    var module = angular.module('alv-ch-ng.text-truncate', []);
 
     module.directive( "ngTextTruncate", function( $compile, ValidationServices, CharBasedTruncation, WordBasedTruncation ) {
         return {
