@@ -1,8 +1,8 @@
-/* alv-ch-ng.text-truncate - 0.2.0 - 2015-03-05 - Copyright (c) 2015 Informatik der Arbeitslosenversicherung; */
+/* alv-ch-ng.text-truncate - 0.2.0 - 2015-03-06 - Copyright (c) 2015 Informatik der Arbeitslosenversicherung; */
 ;(function () {
     'use strict';
 
-    var module = angular.module('alv-ch-ng.text-truncate', ['alv-ch-ng.core']);
+    var module = angular.module('alv-ch-ng.text-truncate', []);
 
     module.directive( "ngTextTruncate", function( $compile, ValidationServices, CharBasedTruncation, WordBasedTruncation ) {
         return {

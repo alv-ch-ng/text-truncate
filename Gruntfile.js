@@ -77,6 +77,16 @@
                 }
             },
             copy: {
+              prod: {
+                files: [
+                    {
+                        expand: true,
+                        cwd: 'src/example/',
+                        src: ['fonts/glyphicons*','images/**/*','locales/**/*','pages/**/*','styles/**/*','*.js','*.html'],
+                        dest: 'dist/example'
+                    }
+                ]
+              },
               example: {
                 files: [
                   {
@@ -304,7 +314,7 @@
         grunt.registerTask('dev', ['build', 'browserSync:dev', 'watch']);
 
         // Default task.
-        grunt.registerTask('default', ['clean:all','all-test','less:prod','cssbeautifier','cssmin', 'concat','uglify:prod']);
+        grunt.registerTask('default', ['clean:all','all-test','less:prod','cssbeautifier','cssmin', 'concat','uglify:prod','copy:prod']);
     };
 
 
